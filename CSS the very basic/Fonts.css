@@ -1,0 +1,67 @@
+
+/*font-size*/
+p {
+	font-family: Arial;
+}
+
+h1 {
+	font-family: georgia;
+}
+
+body {
+	font-size: 10px;
+}
+
+h1 {
+	font-size: 3.0em;
+}
+
+p {
+	font-size: 2.0em;
+}
+
+span {
+	font-size: 3.0em;
+}
+
+/*font-weight*/
+p {
+	font-weight: bold;
+}
+
+/*font-height*/
+p {
+	line-height: 1.5;
+}
+
+/*text-align*/
+p {
+	text-align: center;
+}
+
+/*text-decoration*/
+h1 {
+	text-decoration: underline;
+}
+
+p {
+	text-decoration: line-through;
+}
+p {
+	font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+}
+
+/*<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">*/
+/*font-family: 'Indie Flower', cursive;
+font-family: 'Raleway', sans-serif;*/
+
+
+/*<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway&display=swap" rel="stylesheet">
+*/
+/*font-family: 'Indie Flower', cursive;
+font-family: 'Raleway', sans-serif;
+*/

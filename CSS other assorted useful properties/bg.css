@@ -1,0 +1,15 @@
+section {
+    width: 80%;
+    height: 800px;
+    background-color: purple;
+    margin: 0 auto;
+    /* background-image: url(SNAP\ 22.PNG);
+    background-size: cover;
+    background-position: bottom; */
+    background: center/40% /*no-repeat*/ url(SNAP\ 22.PNG);
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+}

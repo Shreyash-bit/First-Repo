@@ -1,0 +1,30 @@
+h1{
+	color: blue;
+}
+
+
+h2{
+	color: rgba(0,200,100,0.2);
+}
+
+h3{
+	color: rgba(0,200,100,0.6);
+}
+
+h4{
+	color: rgba(0,200,100,0.9);
+}
+
+h5{
+	color: rgb(255,0,0);
+
+}
+
+li{
+	color: #F400DD;
+}
+
+
+
+
+/*three types to set color*/

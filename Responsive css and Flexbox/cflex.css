@@ -1,0 +1,80 @@
+
+/* 1] flex-direction 
+2] justify-content 
+3] flex-wrap 
+4] align-items (align-content, align-self )
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#container {
+    background-color: #003049;
+    width: 90%;
+    /* height: 500px; */
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+
+
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    justify-content: center;
+
+
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: space-around; */
+    /* align-items: space-between; */
+    /* align-items: ; */
+
+}
+
+
+#container div {
+    width: 200px;
+    max-width: 300px;
+    /* width: 600px; */
+    height: 200px;
+    text-align: center;
+    flex-basis: 600px;
+    /* flex-grow: 1; */
+
+}
+
+/* 
+#container div:nth-of-type(3) {
+    align-self: center;
+    align-self: flex-end;
+} 
+*/
+
+#container div:nth-of-type(1) {
+    flex-grow: 1;
+    flex-shrink: 3;
+} 
+
+#container div:nth-of-type(5) {
+    flex-grow: 2;
+    flex-shrink: 0;
+}
+
+/* flex: 1     1      30px*/
+/*     grow  shrink  basis*/

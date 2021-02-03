@@ -1,0 +1,84 @@
+
+#ems div {
+    background-color: black;
+    width: 50%;
+    height: 50%;
+}
+
+#ems h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+
+#ems h2 {
+    font-size: 2em;
+    margin: 1em;
+}
+
+#ems h3{
+    font-size: 1.5em;
+}
+
+#ems article {
+    font-size: 15px;
+}
+
+#ems p {
+    font-size:1em;
+}
+
+#ems button {
+    font-size: 3em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: green;
+    color: white;
+}
+
+#ems ul {
+    font-size: 1.5em;
+}
+
+/* dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd */
+
+#rems div {
+    background-color: black;
+    width: 50%;
+    height: 50%;
+}
+
+#rems h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+
+#rems h2 {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+#rems h3{
+    font-size: 1.5rem;
+}
+
+#rems article {
+    font-size: 15px;
+}
+
+#rems p {
+    font-size:1rem;
+}
+
+#rems button {
+    font-size: 3rem;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    background-color: green;
+    color: white;
+}
+
+#rems ul {
+    font-size: 1.5rem;
+}

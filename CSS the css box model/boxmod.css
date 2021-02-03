@@ -1,0 +1,63 @@
+div {
+    width:200px;
+    height: 200px;
+}
+
+h1 {
+    background-color: pink;
+    width:200px;
+    padding-top: 100px;
+    padding-left: 50px;
+    /* margin-bottom: 0; */
+    margin: 0;
+}
+
+#one {
+    background-color: pink;
+    border : 5px black solid;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+
+#two {
+    background-color: rgb(97, 50, 58);
+    border : 5px rgb(4, 255, 17) dashed;
+    
+}
+
+#three {
+    background-color: rgba(87, 63, 67, 0.452);
+    border : 10px rgb(255, 4, 4) dotted;
+    border-left-style: dashed;
+    border-radius: 30px;
+}
+
+span {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+button {
+    padding: 5px 1px 0 2px;
+}
+
+/*
+1]border - styling single side of the box, border.radius
+2]padding - left,right,top,bottom 
+3]margin - 
+*/
+
+
+/*
+padding : 10px; - all
+padding :  10px; - ver & hori
+padding : 1px 2px 2px; - top & hori & bottom
+padding : 5px 1px 0 2px; - top & right & bottom & left
+*/
+
+/*
+margin : 10px; - all
+margin : 10px; - ver & hori
+margin : 1px 2px 2px; - top & hori & bottom
+margin : 5px 1px 0 2px; - top & right & bottom & left
+*/
